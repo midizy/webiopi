@@ -1,0 +1,174 @@
+body {
+    background-color:rgb(167, 224, 247);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    color: #29595f;
+}
+
+.image {
+    height: 130px;
+    width: 130px;
+    margin-top: 0px;
+    margin-left: 130px;
+    }
+
+
+ul {
+    text-align: center;
+    list-style: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: rgb(62, 206, 199);
+    border-radius: 7px;
+    background-color: lightblue;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+          
+   }
+   
+li a {
+color: #544738;
+text-decoration: none;
+float: left;
+padding: 10px;
+}
+
+li a:hover {
+color: #7eb9be;
+ }
+ .left a:hover {
+
+    /*Transition*/ 
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+    
+    /*Transform*/ 
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+   }
+    
+   .right a:hover {
+    
+    /*Transition*/ 
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+    
+    /*Transform*/ 
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+   }
+
+                button {
+        				display: block;
+        				text-align: center;
+        				text-decoration: none;
+        				width: 130px;
+                        height: 50px;
+                        font-family: 'Amatic SC', cursive;  
+                        font-size: 25px;  
+                                          		
+                        
+                        text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+        				-webkit-border-radius: 15px;
+   						-moz-border-radius: 15px;
+    					border-radius: 15px;
+ 
+    					-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    					-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    					box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+ 
+    					-webkit-transition: all 0.15s ease;
+    					-moz-transition: all 0.15s ease;
+    					-o-transition: all 0.15s ease;
+    					-ms-transition: all 0.15s ease;
+    					transition: all 0.15s ease;
+        				
+        				}
+        		
+        		input[type="range"] {
+        				display: block;
+        				width: 160px;
+                        height: 45px;
+                        
+                    }
+        		
+                #gpio21 {
+                margin-top: 150px;
+                margin-left: 130px;
+                }
+                #gpio21.LOW {
+        				background-color: rgb(179, 4, 4);
+        				color: white;
+        		}
+        		
+                #gpio21.HIGH {
+        				background-color: rgb(26, 209, 56);
+        				color: White;
+				}
+
+                #gpio20 {
+                margin-top: 20px;
+                margin-left: 130px;
+                    }                
+                #gpio20.LOW {
+                    background-color: rgb(179, 4, 4);
+                    color: white;
+                }
+            
+                #gpio20.HIGH {
+                    background-color: rgb(26, 209, 56);
+                    color: White;
+                }
+
+                #gpio16 {
+                margin-top: 20px;
+                margin-left: 130px;
+                }
+
+                #gpio16.LOW {
+                    background-color: rgb(179, 4, 4);
+                    color: white;
+                }
+            
+                #gpio16.HIGH {
+                    background-color: rgb(26, 209, 56);
+                    color: White;
+                }
+
+                #gpio26 {
+                    margin-top: 20px;
+                    margin-left: 130px;
+                    }
+               
+                #gpio26.LOW {
+                background-color: rgb(179, 4, 4);
+                color: white;
+                }
+        
+                 #gpio26.HIGH {
+                background-color: rgb(26, 209, 56);
+                color: White;
+                }
+
+                #gpio19 {
+                    margin-top: 20px;
+                    margin-left: 130px;
+                    }
+               
+                #gpio19.LOW {
+                    background-color: rgb(179, 4, 4);
+                    color: white;
+                    }
+            
+                #gpio19.HIGH {
+                    background-color: rgb(26, 209, 56);
+                    color: White;
+                    }
